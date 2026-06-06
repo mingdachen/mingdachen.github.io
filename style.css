@@ -34,6 +34,7 @@ a, a > tt {
   color: #2C51AA;
   text-decoration: none;
   transition: .2s;
+  white-space: nowrap;
 }
 
 a:hover {
@@ -290,6 +291,7 @@ a.icon:hover{
 .pub_award {
   color: red;
   font-weight: bold;
+}
 
 /*.tagcloud {
   display: inline-block;
@@ -336,4 +338,21 @@ font-size:16px;
 width:550px;
 padding-left:5px;
 line-height: 1.0;
+}
+
+.news-scroll {
+  max-height: 100px !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  border: 0px solid #ddd;
+  padding: 0px 12px;
+  display: block;
+}
+
+.news-scroll ul { margin: 0; padding-left: 18px; }
+.news-scroll li { margin: 0.25em 0; }
+
+.news-date {
+  display: inline-block;
+  width: 72px;
 }
